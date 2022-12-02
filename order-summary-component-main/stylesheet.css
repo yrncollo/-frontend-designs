@@ -77,6 +77,10 @@ body{
 	color: hsl(223, 47%, 23%);
 	font-weight: 900;
 }
+.plan-box a:hover{
+	text-decoration: none;
+	color: hsl(245, 75%, 52%);
+}
 
 .proceed-btn{
 	background-color: hsl(245, 75%, 52%);
@@ -86,4 +90,28 @@ body{
 	display: block;
 	text-decoration: none;
 	border-radius: 14px;
+}
+.proceed-btn:hover{
+	background-color: hsl(224, 23%, 55%);
+}
+
+.cancel-btn{
+	display: block;
+	text-decoration: none;
+	padding: 25px;
+	color: hsl(224, 23%, 55%);
+	font-weight: 900;
+}
+.cancel-btn:hover{
+	color: hsl(223, 47%, 23%);
+
+}
+
+
+@media only screen and (max-width: 425px) {
+body {
+        background-image: url(./images/pattern-background-mobile.svg);
+	font-size: 14px;
+			}
+
 }
