@@ -14,6 +14,8 @@ body{
 	background-size: contain;
 	background-color: hsl(225, 100%, 94%);
 	position: relative;
+	background-size: cover;
+	font-family: 'Red Hat Display', sans-serif;
 }
 
 .container{
@@ -22,9 +24,66 @@ body{
 	background: white;
 	border-radius: 20px;
 	overflow: hidden;
+	left: 35%;
 }
 
 .text-content{
 	text-align: center;
 	padding: 10%;
+}
+
+.title{
+	font-weight: 900;
+	font-size: 30px;
+	color: hsl(223, 47%, 23%);
+	margin-bottom: 17px;
+}
+
+.subtitle{
+	color:#8a8a8a;
+	margin-bottom: 20px;
+
+}
+
+.plan-box{
+	background-color: hsl(225, 100%, 98%);
+	border-radius: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 15px;
+	margin-bottom: 25px;
+}
+
+.plan-box-left{
+	display: flex;
+	text-align: left;
+	align-items: center;
+
+}
+
+.plan-box-left div{
+	margin-left: 20px;
+}
+
+.plan-box-left div h5 {
+
+	font-weight: 900;
+	font-size: 15px;
+	color: hsl(223, 47%, 23%);
+}
+
+.plan-box a {
+	color: hsl(223, 47%, 23%);
+	font-weight: 900;
+}
+
+.proceed-btn{
+	background-color: hsl(245, 75%, 52%);
+	color: white;
+	font-weight: 900;
+	padding: 15px;
+	display: block;
+	text-decoration: none;
+	border-radius: 14px;
 }
