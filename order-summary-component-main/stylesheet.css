@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,500;0,600;0,900;1,600;1,900&display=swap');
+
+*{
+	border: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-image:url(./images/pattern-background-desktop.svg);
+	font-size: 16px;
+	min-height: 100vh;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color: hsl(225, 100%, 94%);
+	position: relative;
+}
+
+.container{
+	position: absolute;
+	max-width: 450px;
+	background: white;
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+.text-content{
+	text-align: center;
+	padding: 10%;
+}
